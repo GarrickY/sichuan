@@ -1,0 +1,6 @@
+!contents -R2 -g -p -f -h
+
+!note this is project home page...
+
+
+!path fixtures\jobs\jobs-1.0.0.0-jar-with-dependencies.jar
