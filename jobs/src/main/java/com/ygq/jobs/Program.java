@@ -1,12 +1,13 @@
 package com.ygq.jobs;
 
 
-import com.ygq.jobs.exception.ExceptionTest;
+import com.ygq.jobs.json.Reader;
 
 public class Program {
     public static void main(String[] para) {
-        ExceptionTest et = new ExceptionTest();
-        et.handleException();
+
+        Reader r = new Reader();
+        r.readjson();
         System.out.println("End");
     }
 }
