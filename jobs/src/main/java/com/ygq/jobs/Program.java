@@ -7,7 +7,8 @@ public class Program {
     public static void main(String[] para) {
 
         Reader r = new Reader();
-        r.readjson();
+        //r.printJson();
+        r.readJson();
         System.out.println("End");
     }
 }
