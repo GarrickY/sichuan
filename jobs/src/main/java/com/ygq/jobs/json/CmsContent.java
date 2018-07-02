@@ -1,12 +1,15 @@
 package com.ygq.jobs.json;
 
+import com.sun.tracing.ProbeName;
+import org.json.JSONString;
+
 import java.util.ArrayList;
 
-public class VantageCms {
+public class CmsContent {
 
-    public General general;
+     public General general;
     public Theme theme;
-    public FeatureContent feature_content;
+    public FeatureContent feature_content;  //should be feature-content
     public ArrayList<Navigation> navigation;
 
     public class General{

@@ -14,9 +14,9 @@ import java.util.List;
 
 public class Reader {
 
-    private String vantageJson = "data/vantage-cms.json";
+    private String cmsJson = "data/vantage-cms.json";
     public void readJson(){
-        URL vantageJsonUrl = Thread.currentThread().getContextClassLoader().getResource(vantageJson);
+        URL vantageJsonUrl = Thread.currentThread().getContextClassLoader().getResource(cmsJson);
 
         JsonPath p = new JsonPath(vantageJsonUrl);
         HashMap<String,List<HashMap<String,String>>> general = p.get("general");
@@ -64,8 +64,8 @@ public class Reader {
         System.out.println("good");
     }
 
-    public void printJson(){
-        InputStream in = Thread.currentThread().getContextClassLoader().getResourceAsStream(vantageJson);
+    public String printJson(){
+        InputStream in = Thread.currentThread().getContextClassLoader().getResourceAsStream(cmsJson);
         BufferedReader rd=new BufferedReader(new InputStreamReader(in));
         StringBuilder json = new StringBuilder();
         String s;
@@ -78,5 +78,6 @@ public class Reader {
         }catch (IOException e){
             e.printStackTrace();
         }
+        return json.toString();
     }
 }
