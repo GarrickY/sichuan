@@ -24,6 +24,7 @@ public class BaiduDemo {
         driver.manage().window().maximize();
         driver.get(baseUrl);
         driver.navigate();
+
     }
 
     @Test

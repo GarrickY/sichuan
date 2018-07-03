@@ -23,6 +23,7 @@ public class SendMsg implements Runnable {
                 System.out.println(response);
                 os.write(response.getBytes());
                 os.flush();
+                os.close();
             } catch (Exception e) {
                 e.printStackTrace();
             }
