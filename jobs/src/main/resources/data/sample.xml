@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Countries>
+    <Country>
+        <Name>China</Name>
+        <PhoneCode>86</PhoneCode>
+        <Provinces>
+            <Province>
+                <Name>Guangdong</Name>
+                <Area>180000</Area>
+                <People>10000</People>
+                <Gdp>80000</Gdp>
+            </Province>
+            <Province>
+                <Name>Chongqing</Name>
+                <Area>100000</Area>
+                <People>3000</People>
+                <Gdp>20000</Gdp>
+            </Province>
+            <Province>
+                <Name>Sichuan</Name>
+                <Area>400000</Area>
+                <People>8000</People>
+                <Gdp>40000</Gdp>
+            </Province>
+        </Provinces>
+    </Country>
+</Countries>
