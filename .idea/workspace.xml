@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48b72412-d28d-4b89-9b30-dbfdf9334d6c" name="Default" comment="Completed XML read &amp; write operation.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vantage-cms.json" />
+    <list default="true" id="48b72412-d28d-4b89-9b30-dbfdf9334d6c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jobs/src/main/java/com/ygq/jobs/xml/XmlOperation.java" afterPath="$PROJECT_DIR$/jobs/src/main/java/com/ygq/jobs/xml/XmlOperation.java" />
     </list>
     <ignored path="$PROJECT_DIR$/jobs/target/" />
+    <ignored path="logs/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -530,7 +529,14 @@
       <option name="project" value="LOCAL" />
       <updated>1530715342659</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Completed XML read &amp; write operation.">
+      <created>1530801403197</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1530801403197</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
