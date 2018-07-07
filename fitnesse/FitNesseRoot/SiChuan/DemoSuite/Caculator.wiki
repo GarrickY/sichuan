@@ -1,0 +1,10 @@
+---
+Test
+---
+![
+!|Import|
+|com.ygq.jobs.fitnessetest|
+]!
+
+!|com.ygq.jobs.fitnessetest.Caculator|
+|check|addTowNumbers|4||5|9          |
