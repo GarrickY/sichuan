@@ -25,7 +25,6 @@ public class SerializeXmlFile {
         p.people = "4000";
         p.gdp = "5900";
 
-
         Provinces ps = new Provinces();
         try {
             ps.province = new ArrayList<Province>();
