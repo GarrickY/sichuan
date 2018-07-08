@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48b72412-d28d-4b89-9b30-dbfdf9334d6c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs/src/main/java/com/ygq/jobs/thread/Consume.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs/src/main/java/com/ygq/jobs/thread/MultiThreadTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs/src/main/java/com/ygq/jobs/thread/Produce.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jobs/src/main/java/com/ygq/jobs/Program.java" afterPath="$PROJECT_DIR$/jobs/src/main/java/com/ygq/jobs/Program.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jobs/src/main/java/com/ygq/jobs/xml/SerializeXmlFile.java" afterPath="$PROJECT_DIR$/jobs/src/main/java/com/ygq/jobs/xml/SerializeXmlFile.java" />
     </list>
     <ignored path="$PROJECT_DIR$/jobs/target/" />
     <ignored path="logs/" />
@@ -24,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/jobs/src/main/java/com/ygq/jobs/Program.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+              <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/jobs/src/main/java/com/ygq/jobs/thread/Produce.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+              <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -570,7 +565,14 @@
       <option name="project" value="LOCAL" />
       <updated>1530963823494</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Multi thread study is done.">
+      <created>1531051909527</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1531051909527</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -617,7 +619,8 @@
     <MESSAGE value="Add dom4j to handle XML files" />
     <MESSAGE value="Completed XML read &amp; write operation." />
     <MESSAGE value="complete xml serialize/deserialize and interface study.&#10;add a sample(caculator) fitnesse wiki page, go through the whole process." />
-    <option name="LAST_COMMIT_MESSAGE" value="complete xml serialize/deserialize and interface study.&#10;add a sample(caculator) fitnesse wiki page, go through the whole process." />
+    <MESSAGE value="Multi thread study is done." />
+    <option name="LAST_COMMIT_MESSAGE" value="Multi thread study is done." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -989,7 +992,7 @@
     <entry file="file://$PROJECT_DIR$/jobs/src/main/java/com/ygq/jobs/Program.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+          <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1007,7 +1010,7 @@
     <entry file="file://$PROJECT_DIR$/jobs/src/main/java/com/ygq/jobs/thread/Produce.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
           <folding />
         </state>
       </provider>
