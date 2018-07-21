@@ -11,6 +11,10 @@ import org.apache.http.util.EntityUtils;
 
 import java.io.IOException;
 
+/**
+ * @author Garrick Yang
+ * @since 1986
+ */
 public class HttpOperation {
     public void getRequest() throws IOException {
         HttpGet get = new HttpGet("https://www.baidu.com");
