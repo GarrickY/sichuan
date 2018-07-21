@@ -1,17 +1,14 @@
 package com.ygq.jobs;
 
 
-import com.ygq.jobs.property.PropertyOperation;
+import com.ygq.jobs.reflection.ReflectOperation;
 
 public class Program {
     public static void main(String[] para) {
 
         try {
-            String path = Program.class.getClassLoader().getResource(".").getPath() + "test.properties";
-            PropertyOperation p = new PropertyOperation();
-            p.writePropertiesFile(path);
-
-            p.readPropertiesFile(path);
+            ReflectOperation ref = new ReflectOperation();
+            ref.reflectClassInInternalPackage();
         } catch (Exception ex) {
             ex.printStackTrace();
         }

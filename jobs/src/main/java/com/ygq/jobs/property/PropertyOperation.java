@@ -4,6 +4,10 @@ import java.io.*;
 import java.util.Properties;
 
 public class PropertyOperation {
+    public PropertyOperation() {
+        System.out.println("PropertyOperation is reflected.");
+    }
+
     public void readPropertiesFile(String propertiesFile) throws IOException {
         InputStream input = new FileInputStream(propertiesFile);
         Properties prop = new Properties();
