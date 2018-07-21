@@ -1,14 +1,14 @@
 package com.ygq.jobs;
 
 
-import com.ygq.jobs.reflection.ReflectOperation;
+import com.ygq.jobs.net.HttpOperation;
 
 public class Program {
     public static void main(String[] para) {
 
         try {
-            ReflectOperation ref = new ReflectOperation();
-            ref.reflectClassInInternalPackage();
+            HttpOperation httpOperation = new HttpOperation();
+            httpOperation.getRequest();
         } catch (Exception ex) {
             ex.printStackTrace();
         }
