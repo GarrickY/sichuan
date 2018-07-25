@@ -1,22 +1,15 @@
 package com.ygq.jobs.restassured;
 
 import io.restassured.RestAssured;
-import io.restassured.path.json.JsonPath;
 import io.restassured.response.ValidatableResponse;
-import org.hamcrest.Matcher;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
 import static org.hamcrest.Matchers.*;
-import static org.hamcrest.Matchers.containsString;
-import static org.hamcrest.Matchers.equalTo;
-import static org.hamcrest.Matchers.hasItems;
-
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
-
-import java.util.Arrays;
 
 public class VantageCms {
-    @Before
+    @BeforeTest
     public void initializer(){
         RestAssured.baseURI = "https://cms.csw.lenovo.com/sitemapjson";
         RestAssured.port = 443;
@@ -49,7 +42,7 @@ public class VantageCms {
 
     }
 
-    @After
+    @AfterTest
     public void cleanEnvironment(){
 
     }

@@ -1,22 +1,21 @@
 package com.ygq.jobs.selenium;
 
 
-import org.junit.After;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
-
-import java.io.File;
+import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
 public class BaiduDemo {
 
     String baseUrl = "http://www.baidu.com";
     WebDriver driver;
-    @Before
+
+    @BeforeTest
     public void openBrowser(){
 
         System.setProperty("webdriver.edge.driver","D:\\maven\\localrepo\\org\\seleniumhq\\selenium\\selenium-edge-driver\\3.12.0\\MicrosoftWebDriver.exe");
@@ -43,7 +42,7 @@ public class BaiduDemo {
         Assert.assertTrue(true);
     }
 
-    @After
+    @AfterTest
     public void closeBrowser(){
         driver.close();
         //driver.quit();
