@@ -5,6 +5,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -23,7 +25,6 @@ public class BaiduDemo {
         driver.manage().window().maximize();
         driver.get(baseUrl);
         driver.navigate();
-
     }
 
     @Test
@@ -31,7 +32,7 @@ public class BaiduDemo {
         String keyword = "China";
         driver.findElement(By.id("kw")).sendKeys(keyword);
         driver.findElement(By.id("su")).click();
-
+        new WebDriverWait(driver, 5).until(ExpectedConditions.titleIs("god"));
         WebElement pic = driver.findElement(By.className("index-logo-src"));
         Assert.assertTrue(false);
     }
