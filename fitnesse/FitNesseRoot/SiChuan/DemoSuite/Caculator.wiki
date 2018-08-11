@@ -1,10 +1,23 @@
 ---
 Test
 ---
-![
-!|Import|
+!|Import                  |
 |com.ygq.jobs.fitnessetest|
-]!
+|com.ygq.jobs.selenium    |
 
-!|com.ygq.jobs.fitnessetest.Caculator|
+!define folder (!-FitnesseRoot-!/files/)
+!define subfolder (!today (yyyyMMddhhmm)/)
+!define filename (!today (yyyyMMdd_hhmmss).jpg)
+!define url (http://files!-/-!${subfolder}123.jpg)
+
+
+!|Caculator                |
 |check|addTowNumbers|4||5|9          |
+
+
+|!-BaiduDemo-!                                   |
+|show|takeScreenshot|${folder}${subfolder}123.jpg|
+|!img -w 500 http://files/${subfolder}123.jpg    |
+|!img -w 500 ${url}                              |
+${url}
+
