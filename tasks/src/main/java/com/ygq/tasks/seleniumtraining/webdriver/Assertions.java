@@ -36,6 +36,5 @@ public class Assertions {
     @Test
     public void verifyCheckpoints() {
         Assert.assertTrue(driver.findElement(By.cssSelector("#ldLoginForm>div>span")).getText().equals("LenovoID Account Login"));
-
     }
 }

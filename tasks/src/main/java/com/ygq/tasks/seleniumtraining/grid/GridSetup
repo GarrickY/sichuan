@@ -1,0 +1,17 @@
+Hub: Win10/192.10.1.10
+Node1：Win10 with chrome/192.10.1.101
+Node2: RedHat Linux 7 with Firefox/192.10.1.102
+
+Steps:
+0.develop test scripts for chrome and firefox.
+1.download selenium-server-standalone-3.13.0.jar from selenium offical website
+2.download webdriver: gecko driver and chrome driver associated with web browsers and operation systems.
+3.on hub, run cmd:
+ java -jar selenium-server-standalone-3.13.0.jar -role hub
+4.on node1, run cmd:
+java -Dwebdriver.chrome.driver="xxxx\chromedriver.exe" -jar selenium-server-standalone-3.13.0.jar -role node -hub http:///192.10.1.10:4444/grid/register
+5.on node2, run cmd:
+java -Dwebdriver.gecko.driver="xxxx\gecko" -jar selenium-server-standalone-3.13.0.jar -role node -hub http:///192.10.1.10:4444/grid/register
+6.on hub, open http://localhost:4444/grid/console to view registration status
+7.run test scripts in step #0.
+end
