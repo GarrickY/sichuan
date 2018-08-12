@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48b72412-d28d-4b89-9b30-dbfdf9334d6c" name="Default" comment="update notations.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/src/main/java/com/ygq/tasks/seleniumtraining/webdriver/Assertions.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/src/main/java/com/ygq/tasks/seleniumtraining/webdriver/Cookies.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tasks/src/main/java/com/ygq/tasks/seleniumtraining/webdriver/InteractionWithElement.java" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_23_6_jre.xml" afterPath="" />
@@ -20,7 +23,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_12_0.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_12_0.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tasks/src/main/java/com/ygq/tasks/seleniumtraining/webdriver/WebDriverDemo.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" />
@@ -62,15 +64,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20151123.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20151123.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_14_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_14_3.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fitnesse/FitNesseRoot/RecentChanges.wiki" afterPath="$PROJECT_DIR$/fitnesse/FitNesseRoot/RecentChanges.wiki" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fitnesse/FitNesseRoot/SiChuan/DemoSuite/Caculator.wiki" afterPath="$PROJECT_DIR$/fitnesse/FitNesseRoot/SiChuan/DemoSuite/Caculator.wiki" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jobs/jobs.iml" afterPath="$PROJECT_DIR$/jobs/jobs.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jobs/pom.xml" afterPath="$PROJECT_DIR$/jobs/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jobs/src/main/java/com/ygq/jobs/fitnessetest/Caculator.java" afterPath="$PROJECT_DIR$/jobs/src/main/java/com/ygq/jobs/fitnessetest/Caculator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jobs/src/main/java/com/ygq/jobs/selenium/BaiduDemo.java" afterPath="$PROJECT_DIR$/jobs/src/main/java/com/ygq/jobs/selenium/BaiduDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/pom.xml" afterPath="$PROJECT_DIR$/tasks/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tasks/tasks.iml" afterPath="$PROJECT_DIR$/tasks/tasks.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tasks/src/main/java/com/ygq/tasks/seleniumtraining/webdriver/LocateElementById.java" afterPath="$PROJECT_DIR$/tasks/src/main/java/com/ygq/tasks/seleniumtraining/webdriver/FindWebElement.java" />
     </list>
     <ignored path="$PROJECT_DIR$/jobs/target/" />
     <ignored path="logs/" />
@@ -136,28 +129,18 @@
       <file leaf-file-name="GridDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tasks/src/main/java/com/ygq/tasks/seleniumtraining/grid/GridDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
+            <state relative-caret-position="225">
               <caret line="35" column="39" lean-forward="false" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileUtils.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/servers/localrepo/commons-io/commons-io/2.4/commons-io-2.4-sources.jar!/org/apache/commons/io/FileUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FindWebElement.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FindWebElement.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tasks/src/main/java/com/ygq/tasks/seleniumtraining/webdriver/FindWebElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="74" column="27" lean-forward="false" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="27" />
+            <state relative-caret-position="204">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="29" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -165,35 +148,59 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Caculator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jobs/src/main/java/com/ygq/jobs/fitnessetest/Caculator.java">
+      <file leaf-file-name="InteractionWithElement.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tasks/src/main/java/com/ygq/tasks/seleniumtraining/webdriver/InteractionWithElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="33" />
+            <state relative-caret-position="233">
+              <caret line="113" column="32" lean-forward="true" selection-start-line="113" selection-start-column="32" selection-end-line="113" selection-end-column="32" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#190#191#0" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
+                <element signature="method#lenovoIdTest#0;class#InteractionWithElement#0" expanded="false" />
+                <element signature="method#getElementText#0;class#InteractionWithElement#0" expanded="false" />
+                <element signature="method#getStatus#0;class#InteractionWithElement#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestClass.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/servers/localrepo/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/TestClass.java">
+      <file leaf-file-name="Assertions.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tasks/src/main/java/com/ygq/tasks/seleniumtraining/webdriver/Assertions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="151">
+              <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cookies.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tasks/src/main/java/com/ygq/tasks/seleniumtraining/webdriver/Cookies.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="49" column="34" lean-forward="false" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Invoker.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/servers/localrepo/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="618" column="0" lean-forward="false" selection-start-line="618" selection-start-column="0" selection-end-line="618" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestRunner.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/servers/localrepo/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/TestRunner.java">
+      <file leaf-file-name="MethodInvocationHelper.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/servers/localrepo/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/MethodInvocationHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5610">
-              <caret line="397" column="0" lean-forward="false" selection-start-line="397" selection-start-column="0" selection-end-line="397" selection-end-column="0" />
+            <state relative-caret-position="-16">
+              <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -228,9 +235,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jobs/src/main/java/com/ygq/jobs/io/ReadFiles.java" />
-        <option value="$PROJECT_DIR$/jobs/src/main/java/com/ygq/jobs/io/DirectoryOperation.java" />
-        <option value="$PROJECT_DIR$/jobs/src/main/resources/data/sample.xml" />
         <option value="$PROJECT_DIR$/jobs/target/classes/data/sample.xml" />
         <option value="$PROJECT_DIR$/vantage-cms.json" />
         <option value="$PROJECT_DIR$/jobs/src/main/java/com/ygq/jobs/xml/SampleXml.java" />
@@ -279,6 +283,9 @@
         <option value="$PROJECT_DIR$/jobs/src/main/java/com/ygq/jobs/selenium/BaiduDemo.java" />
         <option value="$PROJECT_DIR$/tasks/src/main/java/com/ygq/tasks/seleniumtraining/webdriver/LocateElementById.java" />
         <option value="$PROJECT_DIR$/tasks/src/main/java/com/ygq/tasks/seleniumtraining/webdriver/FindWebElement.java" />
+        <option value="$PROJECT_DIR$/tasks/src/main/java/com/ygq/tasks/seleniumtraining/webdriver/Cookies.java" />
+        <option value="$PROJECT_DIR$/tasks/src/main/java/com/ygq/tasks/seleniumtraining/webdriver/InteractionWithElement.java" />
+        <option value="$PROJECT_DIR$/tasks/src/main/java/com/ygq/tasks/seleniumtraining/webdriver/Assertions.java" />
       </list>
     </option>
   </component>
@@ -311,8 +318,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="34" />
-    <option name="y" value="47" />
+    <option name="x" value="-1" />
+    <option name="y" value="70" />
     <option name="width" value="1332" />
     <option name="height" value="681" />
   </component>
@@ -357,8 +364,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -425,6 +430,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -457,7 +464,71 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.FindWebElement.findByXPath">
+  <component name="RunManager" selected="TestNG.Assertions.verifyCheckpoints">
+    <configuration name="Assertions.verifyCheckpoints" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.ygq.tasks.seleniumtraining.webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="tasks" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.ygq.tasks.seleniumtraining.webdriver" />
+      <option name="MAIN_CLASS_NAME" value="com.ygq.tasks.seleniumtraining.webdriver.Assertions" />
+      <option name="METHOD_NAME" value="verifyCheckpoints" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Cookies.setCookie" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.ygq.tasks.seleniumtraining.webdriver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="tasks" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.ygq.tasks.seleniumtraining.webdriver" />
+      <option name="MAIN_CLASS_NAME" value="com.ygq.tasks.seleniumtraining.webdriver.Cookies" />
+      <option name="METHOD_NAME" value="setCookie" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration name="FindWebElement" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -490,7 +561,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="FindWebElement.findByClassName" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="InteractionWithElement.lenovoIdTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.ygq.tasks.seleniumtraining.webdriver.*" />
@@ -502,8 +573,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.ygq.tasks.seleniumtraining.webdriver" />
-      <option name="MAIN_CLASS_NAME" value="com.ygq.tasks.seleniumtraining.webdriver.FindWebElement" />
-      <option name="METHOD_NAME" value="findByClassName" />
+      <option name="MAIN_CLASS_NAME" value="com.ygq.tasks.seleniumtraining.webdriver.InteractionWithElement" />
+      <option name="METHOD_NAME" value="lenovoIdTest" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -522,7 +593,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="FindWebElement.findByCss" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="InteractionWithElement.mouseAction" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.ygq.tasks.seleniumtraining.webdriver.*" />
@@ -534,8 +605,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.ygq.tasks.seleniumtraining.webdriver" />
-      <option name="MAIN_CLASS_NAME" value="com.ygq.tasks.seleniumtraining.webdriver.FindWebElement" />
-      <option name="METHOD_NAME" value="findByCss" />
+      <option name="MAIN_CLASS_NAME" value="com.ygq.tasks.seleniumtraining.webdriver.InteractionWithElement" />
+      <option name="METHOD_NAME" value="mouseAction" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -554,7 +625,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="FindWebElement.findByTagName" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="InteractionWithElement.moveBetweenWindowAndFrame" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.ygq.tasks.seleniumtraining.webdriver.*" />
@@ -566,72 +637,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.ygq.tasks.seleniumtraining.webdriver" />
-      <option name="MAIN_CLASS_NAME" value="com.ygq.tasks.seleniumtraining.webdriver.FindWebElement" />
-      <option name="METHOD_NAME" value="findByTagName" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="FindWebElement.findByXPath" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.ygq.tasks.seleniumtraining.webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="tasks" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.ygq.tasks.seleniumtraining.webdriver" />
-      <option name="MAIN_CLASS_NAME" value="com.ygq.tasks.seleniumtraining.webdriver.FindWebElement" />
-      <option name="METHOD_NAME" value="findByXPath" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="FindWebElement.findWebElementById" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.ygq.tasks.seleniumtraining.webdriver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="tasks" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.ygq.tasks.seleniumtraining.webdriver" />
-      <option name="MAIN_CLASS_NAME" value="com.ygq.tasks.seleniumtraining.webdriver.FindWebElement" />
-      <option name="METHOD_NAME" value="findWebElementById" />
+      <option name="MAIN_CLASS_NAME" value="com.ygq.tasks.seleniumtraining.webdriver.InteractionWithElement" />
+      <option name="METHOD_NAME" value="moveBetweenWindowAndFrame" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -744,19 +751,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.FindWebElement.findWebElementById" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.FindWebElement.findByTagName" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.FindWebElement.findByCss" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.FindWebElement.findByXPath" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.FindWebElement.findByClassName" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.InteractionWithElement.lenovoIdTest" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.InteractionWithElement.mouseAction" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.InteractionWithElement.moveBetweenWindowAndFrame" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.Cookies.setCookie" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.Assertions.verifyCheckpoints" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.FindWebElement.findByXPath" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.FindWebElement.findByCss" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.FindWebElement.findByClassName" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.FindWebElement.findByTagName" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.FindWebElement.findWebElementById" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.Assertions.verifyCheckpoints" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.InteractionWithElement.moveBetweenWindowAndFrame" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.Cookies.setCookie" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.InteractionWithElement.mouseAction" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.InteractionWithElement.lenovoIdTest" />
       </list>
     </recent_temporary>
   </component>
@@ -912,39 +919,46 @@
       <option name="project" value="LOCAL" />
       <updated>1533134889128</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="find selenium elements ppt and source code is done.">
+      <created>1533976489756</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1533976489757</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FindWebElement_findByCss - 2018.08.11 at 15h 06m 32s.xml">
-      <configuration name="FindWebElement.findByCss" configurationId="TestNG" />
+    <history-entry file="Assertions_verifyCheckpoints - 2018.08.12 at 18h 25m 58s.xml">
+      <configuration name="Assertions.verifyCheckpoints" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FindWebElement_findByCss - 2018.08.11 at 15h 09m 37s.xml">
-      <configuration name="FindWebElement.findByCss" configurationId="TestNG" />
+    <history-entry file="Cookies_setCookie - 2018.08.12 at 17h 29m 07s.xml">
+      <configuration name="Cookies.setCookie" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FindWebElement_findByCss - 2018.08.11 at 15h 10m 43s.xml">
-      <configuration name="FindWebElement.findByCss" configurationId="TestNG" />
+    <history-entry file="Cookies_setCookie - 2018.08.12 at 17h 32m 15s.xml">
+      <configuration name="Cookies.setCookie" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FindWebElement_findByCss - 2018.08.11 at 15h 14m 58s.xml">
-      <configuration name="FindWebElement.findByCss" configurationId="TestNG" />
+    <history-entry file="InteractionWithElement_moveBetweenWindowAndFrame - 2018.08.12 at 16h 56m 43s.xml">
+      <configuration name="InteractionWithElement.moveBetweenWindowAndFrame" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FindWebElement_findByCss - 2018.08.11 at 15h 15m 18s.xml">
-      <configuration name="FindWebElement.findByCss" configurationId="TestNG" />
+    <history-entry file="InteractionWithElement_moveBetweenWindowAndFrame - 2018.08.12 at 17h 00m 07s.xml">
+      <configuration name="InteractionWithElement.moveBetweenWindowAndFrame" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FindWebElement_findByCss - 2018.08.11 at 15h 17m 25s.xml">
-      <configuration name="FindWebElement.findByCss" configurationId="TestNG" />
+    <history-entry file="InteractionWithElement_moveBetweenWindowAndFrame - 2018.08.12 at 17h 13m 39s.xml">
+      <configuration name="InteractionWithElement.moveBetweenWindowAndFrame" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FindWebElement_findByCss - 2018.08.11 at 15h 24m 20s.xml">
-      <configuration name="FindWebElement.findByCss" configurationId="TestNG" />
+    <history-entry file="InteractionWithElement_moveBetweenWindowAndFrame - 2018.08.12 at 17h 16m 51s.xml">
+      <configuration name="InteractionWithElement.moveBetweenWindowAndFrame" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FindWebElement_findByCss - 2018.08.11 at 15h 25m 18s.xml">
-      <configuration name="FindWebElement.findByCss" configurationId="TestNG" />
+    <history-entry file="InteractionWithElement_moveBetweenWindowAndFrame - 2018.08.12 at 17h 17m 33s.xml">
+      <configuration name="InteractionWithElement.moveBetweenWindowAndFrame" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FindWebElement_findByXPath - 2018.08.11 at 16h 24m 37s.xml">
-      <configuration name="FindWebElement.findByXPath" configurationId="TestNG" />
+    <history-entry file="InteractionWithElement_moveBetweenWindowAndFrame - 2018.08.12 at 17h 51m 13s.xml">
+      <configuration name="InteractionWithElement.moveBetweenWindowAndFrame" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FindWebElement_findByXPath - 2018.08.11 at 16h 27m 00s.xml">
-      <configuration name="FindWebElement.findByXPath" configurationId="TestNG" />
+    <history-entry file="InteractionWithElement_moveBetweenWindowAndFrame - 2018.08.12 at 17h 58m 28s.xml">
+      <configuration name="InteractionWithElement.moveBetweenWindowAndFrame" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -962,18 +976,21 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24701874" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="544" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.053706504" sideWeight="0.4902439" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3713799" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3713799" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18532526" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3192133" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10221465" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -984,11 +1001,8 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24701874" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="544" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34568834" sideWeight="0.5097561" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.103918225" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -1010,7 +1024,8 @@
     <MESSAGE value="JMockit demo." />
     <MESSAGE value="selenium Grid demo." />
     <MESSAGE value="Locate element by id." />
-    <option name="LAST_COMMIT_MESSAGE" value="Locate element by id." />
+    <MESSAGE value="find selenium elements ppt and source code is done." />
+    <option name="LAST_COMMIT_MESSAGE" value="find selenium elements ppt and source code is done." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1062,25 +1077,25 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/tasks/src/main/java/com/ygq/tasks/seleniumtraining/webdriver/FindWebElement.java</url>
-          <line>102</line>
+          <line>101</line>
           <properties />
           <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/tasks/src/main/java/com/ygq/tasks/seleniumtraining/webdriver/FindWebElement.java</url>
-          <line>77</line>
+          <line>76</line>
           <properties />
           <option name="timeStamp" value="84" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="85" />
+      <option name="time" value="97" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="TestNG">
-        <watch expression="video.getText()" language="JAVA" />
-        <watch expression="driver.findElement(By.xpath(&quot;//div[matches(@class,'*soutu*')]&quot;))" language="JAVA" />
-        <watch expression="driver.findElement(By.cssSelector(&quot;form.fm&gt;input+input+input+input&quot;)).getAttribute(&quot;value&quot;)" language="JAVA" />
-        <watch expression="driver.findElement(By.cssSelector(&quot;form.fm&gt;span.tools&gt;span:only-child&quot;))" language="JAVA" />
+        <watch expression="driver.getWindowHandles()" language="JAVA" />
+        <watch expression="driver.getTitle()" language="JAVA" />
+        <watch expression="driver.getWindowHandle()" language="JAVA" />
+        <watch expression="driver.switchTo().defaultContent()" language="JAVA" />
         <watch expression="driver.findElement(By.cssSelector(&quot;form.fm&gt;input:only-child&quot;))" language="JAVA" />
       </configuration>
       <configuration name="Application">
@@ -1090,36 +1105,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jobs/src/main/java/com/ygq/jobs/property/PropertyOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jobs/src/main/java/com/ygq/jobs/database/MongoDb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jobs/target/classes/test.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jobs/src/main/java/com/ygq/jobs/database/SqliteOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jmockit/jmockit/1.40/jmockit-1.40.jar!/mockit/internal/startup/Startup.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java" />
     <entry file="file://$PROJECT_DIR$/jobs/src/main/java/com/ygq/jobs/restassured/VantageCms.java">
@@ -1248,9 +1233,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="false" />
+            <element signature="e#178#179#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1273,14 +1257,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/src/main/java/com/ygq/tasks/seleniumtraining/grid/GridDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="35" column="39" lean-forward="false" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tasks/src/main/java/com/ygq/tasks/seleniumtraining/webdriver/FindElementByName.java" />
     <entry file="file://$PROJECT_DIR$/tasks/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1290,10 +1266,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/src/main/java/com/ygq/tasks/seleniumtraining/grid/GridDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="35" column="39" lean-forward="false" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/servers/localrepo/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="618" column="0" lean-forward="false" selection-start-line="618" selection-start-column="0" selection-end-line="618" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/servers/localrepo/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/MethodInvocationHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/src/main/java/com/ygq/tasks/seleniumtraining/webdriver/Cookies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="49" column="34" lean-forward="false" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/src/main/java/com/ygq/tasks/seleniumtraining/webdriver/InteractionWithElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="113" column="32" lean-forward="true" selection-start-line="113" selection-start-column="32" selection-end-line="113" selection-end-column="32" />
+          <folding>
+            <element signature="method#lenovoIdTest#0;class#InteractionWithElement#0" expanded="false" />
+            <element signature="method#getElementText#0;class#InteractionWithElement#0" expanded="false" />
+            <element signature="method#getStatus#0;class#InteractionWithElement#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tasks/src/main/java/com/ygq/tasks/seleniumtraining/webdriver/FindWebElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="74" column="27" lean-forward="false" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="27" />
+        <state relative-caret-position="204">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks/src/main/java/com/ygq/tasks/seleniumtraining/webdriver/Assertions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
