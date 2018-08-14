@@ -12,6 +12,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: commons-io:commons-io:2.4" level="project" />
     <orderEntry type="library" name="Maven: org.fitnesse:fitnesse:20180127" level="project" />
     <orderEntry type="library" name="Maven: org.htmlparser:htmlparser:2.1" level="project" />
     <orderEntry type="library" name="Maven: org.htmlparser:htmllexer:2.1" level="project" />
